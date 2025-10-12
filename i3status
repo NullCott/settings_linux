@@ -1,0 +1,24 @@
+general {
+    output_format = "i3bar"
+    colors = true
+    interval = 5
+}
+
+# Solo IP y hora
+order += "ethernet _first_"
+order += "wireless _first_"
+order += "tztime local"
+
+ethernet _first_ {
+    format_up = "   %ip  "
+    format_down = ""
+}
+
+wireless _first_ {
+    format_up = "   %ip  "
+    format_down = ""
+}
+
+tztime local {
+    format = "   %Y-%m-%d %H:%M  "
+}

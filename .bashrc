@@ -1,5 +1,10 @@
 export CLICOLOR=1
-export PS1='\u@\h:\[\e[33m\]\w\[\e[0m\]\$ '
-export EDITOR='vim'
 
+export PS1='\u@\h:\[\e[33m\]\w\[\e[0m\]\$ '
+# root
+# export PS1='\u@\h:\[\e[93m\]\w\[\e[0m\]\$ '
+
+
+export EDITOR='vim'
 alias vi='vim' 
+

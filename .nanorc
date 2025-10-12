@@ -1,0 +1,8 @@
+set tabsize 4           
+set tabstospaces        
+set softwrap            
+set constantshow        
+set mouse               
+set showcursor          
+set historylog          
+syntax "default" ".*"   # Activa resaltado de sintaxis para todo tipo de archivo
