@@ -5,4 +5,3 @@ set constantshow
 set mouse               
 set showcursor          
 set historylog          
-syntax "default" ".*"   # Activa resaltado de sintaxis para todo tipo de archivo
